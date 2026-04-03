@@ -8,3 +8,7 @@ body {
     height: 100vh;
     justify-content: center;
 }
+
+.main-logo {
+    border-radius: 24px;
+}
