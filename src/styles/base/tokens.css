@@ -110,6 +110,7 @@
      TYPOGRAPHY - DEFAULTS
   ========================= */
 
+  --font-sans: "Source Sans 3", system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
   --line-height-body: 1.6;
   --line-height-heading: 1.2;
 }

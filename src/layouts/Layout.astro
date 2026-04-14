@@ -1,6 +1,7 @@
 ---
 import '../styles/base/reset.css';
 import '../styles/base/tokens.css';
+import '../styles/base/base.css';
 import '../styles/global.css';
 const { title = "Stourside Pet Care" } = Astro.props;
 ---
@@ -12,6 +13,9 @@ const { title = "Stourside Pet Care" } = Astro.props;
 		<meta name="viewport" content="width=device-width" />
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<link rel="icon" href="/favicon.ico" />
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;500;600;700&display=swap" rel="stylesheet">
 		<meta name="generator" content={Astro.generator} />
 		<title>{title}</title>
 	</head>
@@ -19,3 +23,5 @@ const { title = "Stourside Pet Care" } = Astro.props;
 		<slot />
 	</body>
 </html>
+
+
